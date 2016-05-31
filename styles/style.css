@@ -13,7 +13,7 @@ a {
 }
 
 p {
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 .toolbar {
@@ -50,6 +50,13 @@ p {
 	font-size: 18px;
 	height: 35px;
 	width: 600px;
+}
+
+#searchsubmit {
+	position:absolute;
+	height: 42px;
+	right: 250px;
+	top: 9px;
 }
 
 #user {
@@ -167,14 +174,14 @@ p {
 	position: relative;
 	font-size: 14px;
 	color: #848484;
-	top: 50px;
+	top: 40px;
 	margin-left: 125px;
 }
 
 #results {
 	position: relative;
-	top: 85px;
-	width: 50%;
+	top: 75px;
+	width: 60%;
 	margin-left: 125px
 }
 
@@ -209,6 +216,7 @@ p {
 	top: 90px;
 	width: 50%;
 	left: 125px;
+	height: 150px;
 	border-top: 1px solid #E6E6E6;
 	border-bottom: 1px solid #E6E6E6;
 }
@@ -223,7 +231,7 @@ p {
 	font-size: 12px;
 	position: relative;
 	width: 170px;
-	height: 60px;
+	height: 80px;
 }
 
 #relate-websites1 {
@@ -231,8 +239,99 @@ p {
 }
 
 #relate-websites2 {
-	top: -45px;
+	top: -65px;
 	left: 180px;
+}
+
+.related-link {
+	color: #3104B4;
+}
+
+.related-link:hover {
+	text-decoration: underline;
+}
+
+.other-pages {
+	position: relative;
+	left: 300px;
+	top: 115px;
+	height: 90px;
+	width: 800px;
+	font-size: 14px;
+	color: #3104B4;
+}
+
+#Gpage {
+	position: relative;
+	height: 45px;
+	width: 35px;
+	top: 5px;
+	z-index: 10;
+}
+
+.link-text {
+	position: relative;
+	left: 10px;
+	z-index: 10;
+}
+
+.next-text {
+	position: relative;
+	left: 60px;
+	z-index: 10;
+}
+
+#first-page {
+	position: relative;
+	display:inline-block;
+	top: 20px;
+	color: #3104B4;
+}
+
+.link-color {
+	color: #3104B4;
+}
+
+.link-color:hover {
+	text-decoration: underline;
+}
+
+.pages {
+	position: relative;
+	display:inline-block;
+	top: 20px;
+	color: #3104B4;
+}
+
+.redO {
+	position: relative;
+	left: 5px;
+	height: 25px;
+	width: 22px;
+	z-index: 10;
+}
+
+.yellowO {
+	position: relative;
+	left: 5px;
+	height: 25px;
+	width: 22px;
+	z-index: 10;
+}
+
+.gle {
+	position: relative;
+	top: 10px;
+	left: 5px;
+	height: 45px;
+	width: 95px;
+	z-index: 10;
+}
+
+.other-pages-nums {
+	position: relative;
+	left: 350px;
+	top: 100px;
 }
 
 .footer {
@@ -241,6 +340,7 @@ p {
 	width: 100%;
 	border-top: 2px solid #E6E6E6;
 	background-color: #F2F2F2;
+	font-weight: normal;
 	
 }
 
